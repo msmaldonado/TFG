@@ -1,5 +1,5 @@
-# Trabajo Fin de Grado
-###  Ranking de números difusos
+# Ranking de números difusos
+
 
 ## **Memoria**
 
