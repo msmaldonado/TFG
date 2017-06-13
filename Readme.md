@@ -1,10 +1,10 @@
 # Trabajo Fin de Grado
-###  Ranking de números difusos <span style="color:green">Python</span> desde el notebook de anaconda
+###  Ranking de números difusos
 
 ## **Memoria**
 
 
-## **Librería en <span style="color:green">R</span>**
+## **Librería en R**
 
 
 
