@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n#Metodo de la distancia muestra p para cualquier numero difuso\nDistanciaMuestraP=function(a,b,c,d,p,w=NULL,L=NULL,R=NULL,LI=NULL,RI=NULL){\n  sympyStart()\n  #Si es un numero difuso trapezoidal\n  if(is.null(w) && is.null(L) && is.null(R)&& is.null(LI) && is.null(RI)){\n    DistanciaMuestraPTrapezoidal(a,b,c,d,p)\n\n  }else if(!is.null(w) && !is.null(L) && !is.null(R)&& !is.null(LI) && !is.null(RI)){#si se introducen todos los parametros\n    if(a<b && b<=c && c<d && w>0 && w<=1 && p>0){\n      #Variables y funciones para Sympy\n      sympy(\"x = Symbol('x',positive = True, real= True)\")\n      sympy(paste(\"L =\",L))\n      sympy(paste(\"R =\",R))\n      sympy(paste(\"LI =\",LI))\n      sympy(paste(\"RI =\",RI))\n\n      #comprobamos que L y R estan bien definidos\n      if(sympy(paste(\"L.subs(x,\",a,\")\"))==0 && sympy(paste(\"R.subs(x,\",d,\")\"))==0  && sympy(paste(\"L.subs(x,\",b,\")\"))==w && sympy(paste(\"R.subs(x,\",c,\")\"))==w ) {\n        #Comprobamos que las funciones LI y RI son las inversas\n        if(sympy(\"LI.subs({'x':L}) == L.subs({'x':LI})\")==\"True\" && sympy(\"RI.subs({'x':R}) == R.subs({'x':RI})\")==\"True\"){#Composicion\n\n          #Calculamos la integral\n          sympy(paste(\"valorI=integrate(abs(LI**\",p,\") + abs(RI**\",p,\"), (x, \",0,\",\",1,\"))\"))\n\n\n          #Realizamos la divison con Rational para que salga exacto\n          sympy(\"R=Rational\")\n          #obtenemos la potencia\n          sympy(paste(\"potencia = float(R(1,\",p,\"))\"))\n\n          sympy(\"indice=valorI**potencia\")\n          #miramos el signo\n          if(sympy(\"integrate(LI + RI,(x,0,1))\")){\n            #indice con float\n            sympy(\"float(indice)\")\n          }else{\n            #indice con float\n            sympy(\"float(-indice)\")\n          }\n\n\n\n        }else{\n          cat(paste(\"Error: Las inversas no corresponden con las funciones\"))\n        }\n      }else{\n        cat(paste(\"Error: Las funciones L y R no estan bien definidas\"))\n      }\n    }else{\n      cat(paste(\"Error: parametros\"))\n    }\n\n  }else if(!is.null(w) && is.null(L) && is.null(R)&& is.null(LI) && is.null(RI)){#Numero difuso trapezoidal con omega\n    DistanciaMuestraPTrapezoidal(a,b,c,d,p,w)\n  }else{#error al introducir variables\n    cat(paste(\"Error: Lectura incorrecta \"))\n  }\n}\n\n",
+    "created" : 1497947836332.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2470586079",
+    "id" : "ED40E0FF",
+    "lastKnownWriteTime" : 1497948457,
+    "last_content_update" : 1497948457517,
+    "path" : "C:/Users/Miguel/Dropbox/Mary/TFG/TFG Miguel/RankingFuzzyNumbers/R/DistanciaMuestraP.R",
+    "project_path" : "R/DistanciaMuestraP.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

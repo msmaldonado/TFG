@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n#Metodo de la distancia a la muestra p para un numero difuso trapezoidal\nDistanciaMuestraPTrapezoidal=function(a,b,c,d,p,w=NULL){\n\n  #Si no hay omega\n  if(is.null(w)){\n    #comprobamos que todos los parametros sean correctos\n    if(a<=b && b<=c && c<=d ){\n      #valor de p correcto\n      if(p>0){\n\n        #Definimos las funciones inversas en valor absoluto\n        LinversaA=function(x)(abs(a+(b-a)*x))^p;\n        RinversaA=function(x)(abs(d-(d-c)*x))^p;\n        #funcion interna de la integral\n        fsumaA = function(x)LinversaA(x)+RinversaA(x);\n\n        #calculamos la integral y obtenemos el valor\n        ra=integrate(fsumaA,0,1);\n        vintegral<-ra$value;\n\n        #Calculamos el signo\n        Linversa=function(x)(a+(b-a)*x);\n        Rinversa=function(x)(d-(d-c)*x);\n        fsuma = function(x)Linversa(x)+Rinversa(x);\n        signo =integrate(fsuma,0,1);\n        vsigno<-signo$value;\n\n        if(vsigno>=0){\n          #devolvemos el valor del indice\n          return(vintegral^(1/p))\n        }else{\n          #devolvemos el valor del indice cambiado de signo\n          return(-(vintegral^(1/p)))\n        }\n\n\n\n\n      }else{#error en p\n        cat(paste(\"Error: p debe ser positivo\"))\n      }\n\n    }else{#error en el orden de numeros\n      cat(paste(\"Error: los valores a,b,c,d no son correctos\"))\n    }\n\n\n  }else{#tenemos omega\n    #parametros correctos\n    if(w >0 && w <=1 && a<=b && b<=c && c<=d){\n      #Si p es correcto\n      if(p>0){\n\n        #Definimos las funciones inversas en valor absoluto\n        LinversaA=function(x)(abs(a+(b-a)*x/w))^p;\n        RinversaA=function(x)(abs(d-(d-c)*x/w))^p;\n\n        #funcion interna de la integral\n        fsumaA = function(x)LinversaA(x)+RinversaA(x);\n\n        #calculamos la integral y obtenemos el valor\n        ra=integrate(fsumaA,0,1);\n        vintegral<-ra$value;\n\n        #Calculamos el signo\n        Linversa=function(x)(a+(b-a)*x/w);\n        Rinversa=function(x)(d-(d-c)*x/w);\n        fsuma = function(x)Linversa(x)+Rinversa(x);\n        signo =integrate(fsuma,0,1);\n        vsigno<-signo$value;\n\n        if(vsigno>=0){\n          #devolvemos el valor del indice\n          return(vintegral^(1/p))\n        }else{\n          #devolvemos el valor del indice cambiado de signo\n          return(-(vintegral^(1/p)))\n        }\n\n      }else{#P es incorrecto\n        cat(paste(\"Error:  valor de p incorrecto \"))\n      }\n\n    }else{#parametros incorrectos\n      cat(paste(\"Error:  parametros incorrectos \"))\n    }\n\n  }\n\n}\n\n\n\n\n\n\n\n",
+    "created" : 1497947837368.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3954472761",
+    "id" : "347E783D",
+    "lastKnownWriteTime" : 1497948247,
+    "last_content_update" : 1497948247947,
+    "path" : "C:/Users/Miguel/Dropbox/Mary/TFG/TFG Miguel/RankingFuzzyNumbers/R/DistanciaMuestraPTrapezoidal.R",
+    "project_path" : "R/DistanciaMuestraPTrapezoidal.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
