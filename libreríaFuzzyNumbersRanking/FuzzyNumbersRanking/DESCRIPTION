@@ -1,4 +1,4 @@
-Package: RankingFuzzysNumbers
+Package: FuzzyNumbersRanking
 Type: Package
 Title: Metodos clasificacion de numeros difusos
 Version: 1.0

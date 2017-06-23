@@ -1,4 +1,4 @@
-# RankingFuzzysNumbers
+# FuzzyNumbersRanking
 Librería en lenguaje R con distintos métodos para realizar ranking en números difusos
 
 ## **Ranking en Números difusos trapezoidales**

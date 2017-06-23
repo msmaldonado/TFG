@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: FuzzyNumbersRanking\nType: Package\nTitle: Metodos clasificacion de numeros difusos\nVersion: 1.0\nAuthor: Msmaldonado\nMaintainer: The package maintainer <msmaldonado@correo.ugr.es>\nDescription: Metodos para ordenar números difusos. Los metodos estan implementados para cualquier tipo de funcion. Ademas tenemos una funcion que nos permite \nLicense: GPL\nEncoding: UTF-8\nLazyData: true\n",
+    "created" : 1498224423794.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3477652323",
+    "id" : "C96C04DF",
+    "lastKnownWriteTime" : 1498224441,
+    "last_content_update" : 1498224441997,
+    "path" : "C:/Users/Miguel/Dropbox/Mary/TFG/TFG Miguel/FuzzyNumbersRanking/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
