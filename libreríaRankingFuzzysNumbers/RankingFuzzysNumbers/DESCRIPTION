@@ -1,0 +1,10 @@
+Package: RankingFuzzysNumbers
+Type: Package
+Title: Metodos clasificacion de numeros difusos
+Version: 1.0
+Author: Msmaldonado
+Maintainer: The package maintainer <msmaldonado@correo.ugr.es>
+Description: Metodos para ordenar números difusos. Los metodos estan implementados para cualquier tipo de funcion. Ademas tenemos una funcion que nos permite 
+License: GPL
+Encoding: UTF-8
+LazyData: true
