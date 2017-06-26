@@ -1,9 +1,9 @@
 \name{CentroideChuYTsaoTrapezoidal}
 \alias{CentroideChuYTsaoTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{funcion que calcula el indice del metodo del centroide de Chu y Tsao}
+\title{Funcion que calcula el indice del metodo del centroide de Chu y Tsao para numeros difusos trapezoidales.}
 \description{
-Funcion que calcula el indice del metodo del centroide de Chu y Tsao para numero difusos trapezoidales
+Funcion que calcula el indice del metodo del centroide de Chu y Tsao para numeros difusos trapezoidales
 }
 \usage{
 CentroideChuYTsaoTrapezoidal(a,b,c,d,w=NULL)

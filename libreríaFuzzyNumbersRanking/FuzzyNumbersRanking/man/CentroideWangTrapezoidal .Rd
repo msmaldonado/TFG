@@ -1,9 +1,9 @@
 \name{CentroideWangTrapezoidal}
 \alias{CentroideWangTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{funcion que calcula el indice del metodo del centroide de Wang}
+\title{Funcion que calcula el indice del metodo del centroide de Wang para numeros difusos trapezoidales}
 \description{
-Funcion que calcula el indice del m?todo del centroide de Wang para numero difusos trapezoidales
+Funcion que calcula el indice del metodo del centroide de Wang para numeros difusos trapezoidales.
 }
 \usage{
 CentroideWangTrapezoidal(a,b,c,d,w=NULL)

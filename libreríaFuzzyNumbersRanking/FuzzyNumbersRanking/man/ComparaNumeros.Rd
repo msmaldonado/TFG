@@ -1,9 +1,9 @@
 \name{ComparaNumeros}
 \alias{ComparaNumeros}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{calcula el orden de varios numeros difusos}
+\title{Funcion que calcula el orden de varios numeros difusos trapezoidales para un metodo.}
 \description{
-Funcion que calcula el orden de varios numeros difusos trapezoidales para un metodo
+Funcion que calcula el orden de varios numeros difusos trapezoidales para un metodo.
 }
 \usage{
 ComparaNumeros()

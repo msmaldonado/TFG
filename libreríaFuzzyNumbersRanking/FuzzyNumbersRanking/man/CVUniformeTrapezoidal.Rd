@@ -1,9 +1,9 @@
 \name{CVUniformeTrapezoidal}
 \alias{CVUniformeTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{calcular el indice del coeficiente de variacion uniforme}
+\title{Funcion que calcula el indice del metodo de variacion uniforme de Cheng para numeros difusos trapezoidales.}
 \description{
-Funcion que calcula el indice del metodo de variacion uniforme de Cheng
+Funcion que calcula el indice del metodo de variacion uniforme de Cheng para numeros difusos trapezoidales.
 }
 \usage{
 CVUniformeTrapezoidal(a,b,c,d,w=NULL)

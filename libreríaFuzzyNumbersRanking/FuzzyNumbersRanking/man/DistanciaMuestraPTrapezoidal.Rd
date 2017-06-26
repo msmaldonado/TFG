@@ -1,9 +1,9 @@
 \name{DistanciaMuestraPTrapezoidal}
 \alias{DistanciaMuestraPTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{funcion que calcula el indice del metodo de la distancia a la muestra p}
+\title{Funcion que calcula el indice del metodo de la distancia de signo para numeros difusos trapezoidales .}
 \description{
-Funcion que calcula el indice del metodo de la distancia de la muestra p para un numero difuso trapezoidal y un valor de p positivo
+Funcion que calcula el indice del metodo de la distancia de signo para numeros difusos trapezoidales .
 }
 \usage{
 DistanciaMuestraPTrapezoidal(a,b,c,d,p,w=NULL)

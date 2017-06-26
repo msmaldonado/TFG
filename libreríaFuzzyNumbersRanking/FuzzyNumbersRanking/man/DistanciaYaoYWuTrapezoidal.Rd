@@ -1,9 +1,9 @@
 \name{DistanciaYaoYWuTrapezoidal}
 \alias{DistanciaYaoYWuTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{funcion que calcula el indice del metodo Yao y Wu}
+\title{Funcion que calcula el valor del indice del metodo de Yao y Wu para numeros difusos trapezoidales.}
 \description{
-Funcion que calcula el valor del indice del metodo de Yao y Wu para numeros difusos trapezoidales
+Funcion que calcula el valor del indice del metodo de Yao y Wu para numeros difusos trapezoidales.
 }
 \usage{
 YaoYWuTrapezoidal(a,b,c,d,w=F)

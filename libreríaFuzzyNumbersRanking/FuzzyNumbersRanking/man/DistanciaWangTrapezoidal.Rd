@@ -1,9 +1,9 @@
 \name{DistanciaWangTrapezoidal}
 \alias{DistanciaWangTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{indice del metodo de Wang}
+\title{Funcion que calcula el indice del metodo de la distancia de Wang para un numero difuso trapezoidal.}
 \description{
-Funcion que calcula el indice del metodo de la distancia de Wang para un numero difuso trapezoidal
+Funcion que calcula el indice del metodo de la distancia de Wang para un numero difuso trapezoidal.
 }
 \usage{
 DistanciaWangTrapezoidal(a,b,c,d,w=F)

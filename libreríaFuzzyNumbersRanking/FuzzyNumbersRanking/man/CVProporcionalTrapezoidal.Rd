@@ -1,7 +1,7 @@
 \name{CVProporcionalTrapezoidal}
 \alias{CVProporcionalTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{calcular el indice del coeficiente de variacion proporcional}
+\title{Funcion que calcula el indice del coeficiente de variacion proporcional de un numero difuso trapezoidal.}
 \description{
 Funcion que calcula el indice del coeficiente de variacion proporcional de un numero difuso trapezoidal
 }

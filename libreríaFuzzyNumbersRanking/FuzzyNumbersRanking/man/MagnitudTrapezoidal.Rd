@@ -1,9 +1,9 @@
 \name{MagnitudTrapezoidal}
 \alias{MagnitudTrapezoidal}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{calcular el indice de la magnitud}
+\title{Funcion que calcula el indice del metodo de la magnitud para un numero difuso trapezoidal}
 \description{
-Funcion que calcula el indice del metodo de la magnitud para un numero trapezoidal
+Funcion que calcula el indice del metodo de la magnitud para un numero difuso trapezoidal
 }
 \usage{
 MagnitudTrapezoidal(a,b,c,d,w)

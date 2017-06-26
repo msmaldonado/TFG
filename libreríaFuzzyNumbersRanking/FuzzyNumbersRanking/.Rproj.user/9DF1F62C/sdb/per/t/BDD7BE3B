@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{CVUniforme}\n\\alias{CVUniforme}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{Funcion que calcula el indice del metodo del coeficiente de variacion uniforme para cualquier tipo de numero difuso.}\n\\description{\nFuncion que calcula el indice del metodo del coeficiente de variacion uniforme para cualquier tipo de numero difuso pasandole la funcion L y R\n}\n\\usage{\nCVUniforme(a,b,c,d,w=NULL,L=NULL,R=NULL,LI=NULL,RI=NULL)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n\\item{a}{Extremo inferior del soporte }\n\\item{b}{Extremo inferior del nucleo }\n\\item{c}{Extremo superior del nucleo }\n\\item{d}{Extremo superior del soporte }\n\\item{w}{altura en el eje y del numero difuso. \\code{w} por defecto vale 1 }\n\\item{L}{Funcion izquierda del numero difuso }\n\\item{R}{Funcion derecha del numero difuso }\n\\item{LI}{Funcion inversa de L }\n\\item{RI}{Funcion inversa de R }\n}\n\\details{\nLos valores a,b,c,d tienen que estar ordenados en forma creciente, w mayor que cero y menor que 1. Por defecto vale 1. Las funcion L y R tienen que estar bien definidas. Las funciones LI y RI deben ser las inversas.\n}\n\\value{\nDevuelve el valor del indice\n}\n\\references{}\n\\author{msmaldonado}\n\\note{}\n\\seealso{}\n\\examples{\nCVUniforme(0.4,0.5,0.5,1,1,'x','-x+2','x','x-x+2')\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{NumerosDifusos,CVUniforme}\n",
+    "created" : 1498471199945.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3715251707",
+    "id" : "BDD7BE3B",
+    "lastKnownWriteTime" : 1498471761,
+    "last_content_update" : 1498471761043,
+    "path" : "C:/Users/Miguel/Dropbox/Mary/TFG/TFG Miguel/FuzzyNumbersRanking/man/CVUniforme.Rd",
+    "project_path" : "man/CVUniforme.Rd",
+    "properties" : {
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

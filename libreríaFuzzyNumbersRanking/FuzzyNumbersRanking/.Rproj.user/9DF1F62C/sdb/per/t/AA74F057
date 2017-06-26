@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{ChenTrapezoidal}\n\\alias{ChenTrapezoidal}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{Funcion que calcula el indice del metodo de Chen para numeros difusos trapezoidales .}\n\\description{\nFuncion que calcula el indice del metodo de Chen para numeros difusos trapezoidales .\n}\n\\usage{\nChenTrapezoidal(a,b,c,d,xmin,xmax)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n\\item{a}{Extremo inferior del soporte }\n\\item{b}{Extremo inferior del nucleo }\n\\item{c}{Extremo superior del nucleo }\n\\item{d}{Extremo superior del soporte }\n\\item{xmin}{Minimo de los extremos inferiores del soporte del conjunto }\n\\item{xmax}{Maximo de los extremos inferiores del soporte del conjunto  }\n}\n\\details{\nLos valores a,b,c,d tienen que estar ordenados en forma creciente y estar en el intervalor del xmin y xmax\n\\value{\nDevuelve el valor del indice\n}\n\\references{}\n\\author{msmaldonado}\n\\note{}\n\\seealso{}\n\\examples{\nChenTrapezoidal(0.4,0.5,0.5,1,0.4,1);\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{NumerosDifusosTrapezoidales,Chen}\n\n\n",
+    "created" : 1498483272431.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2416105167",
+    "id" : "AA74F057",
+    "lastKnownWriteTime" : 1498483456,
+    "last_content_update" : 1498483456212,
+    "path" : "C:/Users/Miguel/Dropbox/Mary/TFG/TFG Miguel/FuzzyNumbersRanking/man/ChenTrapezoidal.Rd",
+    "project_path" : "man/ChenTrapezoidal.Rd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

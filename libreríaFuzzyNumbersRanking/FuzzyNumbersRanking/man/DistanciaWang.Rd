@@ -1,9 +1,9 @@
 \name{DistanciaWang}
 \alias{DistanciaWang}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{indice del metodo de Wang}
+\title{Funcion que calcula el indice del metodo de la distancia de Wang para cualquier tipo de numero difuso.}
 \description{
-Funcion que calcula el indice del metodo de la distancia de Wang para cualquier tipo de numero difuso pasandole la funcion L y R
+Funcion que calcula el indice del metodo de la distancia de Wang para cualquier tipo de numero difuso.
 }
 \usage{
 DistanciaWang(a,b,c,d,w=NULL,L=NULL,R=NULL,LI=NULL,RI=NULL)
@@ -15,13 +15,13 @@ DistanciaWang(a,b,c,d,w=NULL,L=NULL,R=NULL,LI=NULL,RI=NULL)
 \item{c}{Extremo superior del nucleo }
 \item{d}{Extremo superior del soporte }
 \item{w}{altura en el eje y del numero difuso. \code{w} por defecto vale 1 }
-\item{L}{Funcion L }
-\item{R}{Funcion R }
+\item{L}{Funcion izquierda del numero difuso }
+\item{R}{Funcion derecha del numero difuso }
 \item{LI}{Funcion inversa de L }
 \item{RI}{Funcion inversa de R }
 }
 \details{
-Los valores a,b,c,d tienen que estar ordenados en forma creciente, w mayor que cero y menor que 1. Por defecto vale 1. Las funcion L y R tienen que ser las inversas y estar bien definidas
+Los valores a,b,c,d tienen que estar ordenados en forma creciente, w mayor que cero y menor que 1. Por defecto vale 1. Las funcion L y R tienen que estar bien definidas. Las funciones LI y RI deben ser las inversas.
 }
 \value{
 Devuelve el valor del indice
