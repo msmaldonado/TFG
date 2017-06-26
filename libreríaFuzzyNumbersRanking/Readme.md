@@ -13,7 +13,7 @@ Librería en lenguaje R con distintos métodos para realizar ranking en números
 + MagnitudTrapezoidal
 
 
-## **Funcion para comparar un conjunto de Números difusos**
+## **Función para comparar un conjunto de Números difusos**
 + ComparaNumeros()
 
 
