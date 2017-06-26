@@ -4,6 +4,7 @@ Librería en lenguaje R con distintos métodos para realizar ranking en números
 ## **Ranking en Números difusos trapezoidales**
 + CentroideChuYTsaoTrapezoidal
 + CentroideWangTrapezoidal
++ ChenTrapezoidal
 + CVProporcionalTrapezoidal
 + CVUniformeTrapezoidal
 + DistanciaMuestraPTrapezoidal
